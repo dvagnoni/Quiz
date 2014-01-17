@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)ShowQuestion:(id)sender {
+    NSLog(@"In ShowQuestion");
+    ([self.question setText: @"What is 7 + 7?"]);
+    NSLog(@"In ShowAnswer");
+    ([self.question setText: @"7 + 7 = 14"]);
+}
+- (IBAction)ShowAnswer:(id)sender {
+}
 @end

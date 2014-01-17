@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface quizViewController : UIViewController
+- (IBAction)ShowQuestion:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *question;
+- (IBAction)ShowAnswer:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *answer;
 
 @end
